@@ -1,0 +1,34 @@
+[0m15:14:11.492332 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106bd3dd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1061d5250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1061d51c0>]}
+
+
+============================== 15:14:11.494849 | 1bd86878-99cc-4ea3-9087-bfafdf5c6a74 ==============================
+[0m15:14:11.494849 [info ] [MainThread]: Running with dbt=1.11.8
+[0m15:14:11.495154 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt init build_mau', 'indirect_selection': 'eager', 'warn_error': 'None', 'use_experimental_parser': 'False', 'write_json': 'True', 'log_path': 'logs', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'cache_selected_only': 'False', 'introspect': 'True', 'log_cache_events': 'False', 'no_print': 'None', 'debug': 'False', 'empty': 'None', 'target_path': 'None', 'printer_width': '80', 'use_colors': 'True', 'static_parser': 'True', 'version_check': 'True', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'partial_parse': 'True', 'quiet': 'False', 'profiles_dir': '/Users/chelsea/.dbt', 'log_format': 'default'}
+[0m15:14:11.503360 [info ] [MainThread]: Creating dbt configuration folder at /Users/chelsea/.dbt
+[0m15:14:11.504165 [debug] [MainThread]: Starter project path: /Users/chelsea/dbt_hw8_env/lib/python3.12/site-packages/dbt/include/starter_project
+[0m15:14:11.507384 [info ] [MainThread]: 
+Your new dbt project "build_mau" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:14:11.507572 [info ] [MainThread]: Setting up your profile.
+[0m15:14:21.984549 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m15:14:21.984971 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m15:14:21.985134 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m15:18:45.156333 [info ] [MainThread]: Profile build_mau written to /Users/chelsea/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m15:18:45.195853 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 273.73355, "process_in_blocks": "0", "process_kernel_time": 0.178434, "process_mem_max_rss": "138821632", "process_out_blocks": "0", "process_user_time": 0.782956}
+[0m15:18:45.198475 [debug] [MainThread]: Command `dbt init` succeeded at 15:18:45.198147 after 273.74 seconds
+[0m15:18:45.201206 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10624a270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107ae0920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1077aa540>]}
+[0m15:18:45.202793 [debug] [MainThread]: Flushing usage events
+[0m15:18:45.894117 [debug] [MainThread]: An error was encountered while trying to flush usage events
